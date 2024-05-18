@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head class="fondo">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reclutamiento</title>
+    <link rel="stylesheet" href="CSS/estilos.css" </head>
+
+<body class="fondo">
+    <main>
+        <section>
+            <form action="">
+                <table class="form-input" align="center" width="600">
+                    <tr>
+                        <h1 id="titulo-principal">Registrate como interesado</h1>
+                        <th><Label for="nombre">Nombre</Label></th>
+                        <th></th>
+                        <th><input type="text" name="nombre" id="nombre" placeholder="Escribe tu nombre" size="40"
+                                maxlength="30"></th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="Correo">Correo</label></th>
+                        <th></th>
+                        <th><input type="email" name="Correo" id="Correo" placeholder="Correo Electronico" size="40"
+                                maxlength="30"></th>
+                    </tr>
+
+                    <tr>
+                        <th><Label for="pais">Pais</Label></th>
+                        <th></th>
+                        <th><select name="tipo" id="tipo">
+                                <option value="">Seleccione un pais</option>
+                                <option value="1">Brasil</option>
+                                <option value="2">Costa Rica</option>
+                                <option value="3">Canada</option>
+                                <option value="4">Chile</option>
+                                <option value="5">Colombia</option>
+                                <option value="6">Ecuador</option>
+                                <option value="7">El Salvador</option>
+                                <option value="8">España</option>
+                                <option value="9">Bolivia</option>
+                                <option value="10">Australia</option>
+                            </select></th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="tipo de trabajo" name="tipo de trabajo" id="tipo de trabajo">Presencial</label>
+                        </th>
+                        <th></th>
+                        <th><input type="radio" name="tipo de trabajo" value="1" size="40" maxlength="30">Presencial
+                            <input type="radio" name="tipo de trabajo" value="1" size="40" maxlength="30">Remoto
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="conocimiento" name="conocimiento" id="conocimiento">Debe dominar los siguientes
+                                lenguajes</label></th>
+                        <th></th>
+                        <th><input type="checkbox" name="html" value="1" size="40" maxlength="30">HTML
+                            <input type="checkbox" name="python" value="1" size="40" maxlength="30">Python
+                            <input type="checkbox" name="javascript" value="1" size="40" maxlength="30">JavaScript
+                            <input type="checkbox" name="git" value="1" size="40" maxlength="30">GIT
+                        </th>
+                    </tr>
+
+                    <tr>
+                        <th><label for="cargo a desempeñar" name="cargo a desempeñar" id="cargo a desempeñar">Cargo a
+                                desempeñar</label></th>
+                        <th></th>
+                        <th><textarea name="cargo a desempeñar" id="cargo a desempeñar" cols="30" rows="10"
+                                placeholder="Describa el cargo a desempeñar"></textarea></th>
+                    </tr>
+                    <tr>
+                        <th colspan="3"><button class="boton" type="submit">Enviar solicitud</button>
+                        <input class="boton" type="reset" value="Borrar">
+                        </th>
+                    </tr>
+                </table>
+            </form>
+        </section>
+        <h2><a href="index.html"> Inicio </a></h2>
+    </main>
+</body>
+
+</html>
